@@ -1,0 +1,79 @@
+nav ul {
+      list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;          /* yan yana dizer */
+  justify-content: center; /* ortaya hizalar */
+  gap: 20px;              /* boşluk bırakır */
+}
+
+
+
+.baslik{
+  background-image: url("nguyen-minh-cX44nWQXiJo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;       /* yüksekliği ayarlarsın */
+  color: white;        /* yazılar beyaz olsun */
+  text-align: center;
+  display: flex;      
+  flex-direction: column;
+  justify-content: center;}
+
+  body{
+    background-color: rgba(255, 255, 255, 0.459)
+  }
+
+.blog-post {
+  background: rgba(34, 32, 34, 0.548); color: aliceblue;
+  max-width: 1600px;     
+  padding: 20px;
+  margin: 40px auto;    
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}
+
+.blog-post header h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.blog-post section p {
+  text-align: justify;  
+  line-height: 1.6;     
+}
+
+.blog-post footer {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.card {
+   background:rgba(34, 32, 34, 0.548); color: aliceblue;
+}
+
+
+
+
+.carousel-item img {
+  max-height: 400px;   
+  width: auto;         
+  margin: 0 auto;      
+  object-fit: contain; 
+  display: block;      
+}
+
+
+.btn {
+  background-color: #3498db;  /* Butonun arka plan rengi (mavi tonları) */
+  color: white;               /* Yazı rengi */
+  padding: 12px 24px;         /* İç boşluk: dikey 12px, yatay 24px */
+  border: none;               /* Çerçeve olmasın */
+  border-radius: 8px;         /* Köşeleri yuvarlat */
+  font-size: 16px;            /* Yazı boyutu */
+  cursor: pointer;            /* Üzerine gelince el simgesi */
+  transition: 0.3s;           /* Hover efektinin yumuşak geçişi */
+}
